@@ -1,0 +1,7 @@
+http://zonglinli86.blog.163.com/blog/static/207752182201211197583651/
+
+新版的eclipse配置好android開發環境後沒有顯示在window菜單裡顯示Android SDK Manager，
+也沒有在工具欄裡出現android的工具圖標。但可以通過android sdk安裝目錄中的Andr​​oid SDK Manager 程序雙擊打開，
+且功能都已經具備。
+此現象可以通過在eclipse中的-window-customize perspective- DDMS － Command Groups Availability中，
+勾選Android SDK and AVD Manager來添加。
