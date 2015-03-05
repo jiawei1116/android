@@ -1,0 +1,8 @@
+emulator: ERROR: x86 emulation currently requires hardware acceleration!
+Please ensure Intel HAXM is properly installed and usable.CPU acceleration status: HAX kernel module is not installed!
+
+http://www.cnblogs.com/csulennon/p/4178404.html
+
+这是Inter官网告诉我的，作用是管理硬件加速的，估计是用了这个东西模拟器就能告别Eclipse时代的龟速。
+
+你也可以在Inter官网下载这个HAXM，当然Android SDK已经集成了这个软件，你需要做的就是找到他，然后安装它就是了
