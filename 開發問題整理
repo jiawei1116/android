@@ -1,0 +1,18 @@
+1. 
+java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.
+http://blog.csdn.net/lincyang/article/details/42673151
+
+原因：
+從錯誤提示中提到Theme.AppCompat的主題，這是因為我們的活動一定是繼承了兼容包中的類，
+比如我这里就无意中继承了ActionBarActivity，它来自android.support.v7.app.ActionBarActivity。
+所以就要使用與其配合的AppCompat的主題才行。
+
+<activity
+  android:name="net.macdidi.myandroidtutorial.AboutActivity"
+  android:theme="@android:style/Theme.Dialog"
+/>
+
+<activity
+  android:name="net.macdidi.myandroidtutorial.AboutActivity"
+  android:theme="@style/Theme.AppCompat.Dialog"
+/>
