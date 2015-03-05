@@ -1,0 +1,8 @@
+http://blog.csdn.net/eclipsexys/article/details/30748339
+
+Android Studio最全解析
+
+满足广大程序员的心声，我们还要设置一下东西，比如自动提示，不得不说，Android Studio的自动提示功能非常之强大，
+但是，如果你要输入“String”，你输入“string”，这个是不会提示的，也就是大小写敏感的，不爽是吗？很简单：
+
+Editor -> Code Completion -> Case sensitive completion : None
