@@ -1,7 +1,21 @@
 http://blog.csdn.net/hotlinhao/article/details/9154345
 
+Adnroid Studio 快捷鍵
+
+ctrl + space 相等於 eclipse 的 alt + /
+打 new 後，按ctrl + space（空白鍵），可自動填寫
+
+　
+14.Alt+Insert可以生成构造器/Getter/Setter等
+
+
+double Shift：全局查找，这个查看和Alt+H稍稍有些不同，这个是全局文件查找，到文件名称层面。
+(eclipse —> ctrl + shift + R)
+
+
 个人经验，在使用eclipse的时候在输入完比如 btn.setOnClickListener（new View.OnClickListener(){}); 
-可以自动在 OnClickListener中创建 onClick方法，但在Android Studio中却没有找到，，，通过查看该篇文章找到了办法，在输入 new 后直接按 ctrl + shift + special 
+可以自动在 OnClickListener中创建 onClick方法，但在Android Studio中却没有找到，，，通过查看该篇文章找到了办法，
+在输入 new 后直接按 ctrl + shift + space （空白鍵）
 见本章第43条
 
 Alt+回车 导入包,自动修正
