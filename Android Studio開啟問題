@@ -1,0 +1,9 @@
+若project打開有異常（android 視窗看不到src）
+
+因專案放在usb內，而usb名稱被改過
+ex: DATA_2 被改為DATA_2 1 （要用終端機看）
+
+重新修改usb裝置名稱即可
+
+在桌面，對usb按一下enter，即可改名
+先將DATA_2 1 改為別的，在改回DATA_2即可
